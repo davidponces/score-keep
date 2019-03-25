@@ -1,0 +1,23 @@
+//Have a player block
+//3 elements: name, stats, actions
+
+.player {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.player__name {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.player__stats {
+    font-size: 1.3rem;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.player__actions {
+    flex-shrink: 0;
+}
